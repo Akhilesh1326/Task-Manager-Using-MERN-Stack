@@ -60,7 +60,7 @@ const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
 
-      <h1 className="text-4xl font-bold mb-8">Hello <p className='inline text-blue-500'>{name}</p>..!</h1>
+      <h1 className="text-4xl font-bold mb-8 mt-10">Hello <p className='inline text-blue-500'>{name}</p>..!</h1>
       <h1 className="text-4xl font-bold mb-8">Welcome to Your Task Manager</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <Link to="/todo" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-6 rounded-lg text-center shadow-lg shadow-blue-800">
@@ -73,6 +73,7 @@ const Home = () => {
           Journal <p className='text-center'>{journalCount}</p>
         </Link>
       </div>
+      <p className='mt-40'>Developed By Akhilesh Pimple With &#9829;</p>
     </div>
   );
 };
