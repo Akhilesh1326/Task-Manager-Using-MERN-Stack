@@ -14,7 +14,6 @@ Fully working task manger website build using the MERN stack as M for not MongoD
 ### Steps to SetUp:
 **Step 1  For project initialization**
 Do it for /backend and in main directory
-``` npm init
- ```
+```npm init```
 **Step 2 For project creations**
 
